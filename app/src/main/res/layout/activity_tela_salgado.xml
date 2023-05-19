@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaSalgado">
+
+    <include
+        layout="@layout/appbar"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="55dp"
+        android:layout_height="16dp"
+        android:fontFamily="@font/breath"
+        android:text="TORTA"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/ivTodas"
+        app:layout_constraintEnd_toEndOf="@+id/ivTodas"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/ivTodas"
+        app:layout_constraintTop_toTopOf="@+id/ivTodas"
+        app:layout_constraintVertical_bias="0.447" />
+
+
+    <ImageView
+        android:id="@+id/ivPaum"
+        android:layout_width="85dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="236dp"
+        android:alpha="0.85"
+        android:background="@drawable/border_image"
+        android:clipToOutline="true"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/salgado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivCoxinha"
+        android:layout_width="85dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="236dp"
+        android:alpha="0.85"
+        android:background="@drawable/border_image"
+        android:clipToOutline="true"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/salgado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCoxinha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/breath"
+        android:text="COXINHA"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/ivCoxinha"
+        app:layout_constraintEnd_toEndOf="@+id/ivCoxinha"
+        app:layout_constraintStart_toStartOf="@+id/ivCoxinha"
+        app:layout_constraintTop_toTopOf="@+id/ivCoxinha" />
+
+    <TextView
+        android:id="@+id/tvTodas"
+        android:layout_width="47dp"
+        android:layout_height="17dp"
+        android:text="TORTA"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/ivTodas"
+        app:layout_constraintEnd_toEndOf="@+id/ivTodas"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/ivTodas"
+        app:layout_constraintTop_toTopOf="@+id/ivTodas"
+        app:layout_constraintVertical_bias="0.447" />
+
+    <TextView
+        android:id="@+id/tvSalgados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:fontFamily="@font/breath"
+        android:text="SALGADOS"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvNomeApp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/breath"
+        android:text="MeuApp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivTodas"
+        android:layout_width="85dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="236dp"
+        android:alpha="0.85"
+        android:background="@drawable/border_image"
+        android:clipToOutline="true"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/salgado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/IvTorta"
+        android:layout_width="85dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="320dp"
+        android:alpha="0.85"
+        android:background="@drawable/border_image"
+        android:clipToOutline="true"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/salgado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="16dp"
+        android:fontFamily="@font/breath"
+        android:text="TODOS"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/ivTodas"
+        app:layout_constraintEnd_toEndOf="@+id/ivTodas"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/ivTodas"
+        app:layout_constraintTop_toTopOf="@+id/ivTodas"
+        app:layout_constraintVertical_bias="0.447" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="55dp"
+        android:layout_height="17dp"
+        android:fontFamily="@font/breath"
+        android:text="TORTA"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/IvTorta"
+        app:layout_constraintEnd_toEndOf="@+id/IvTorta"
+        app:layout_constraintStart_toStartOf="@+id/IvTorta"
+        app:layout_constraintTop_toTopOf="@+id/IvTorta"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <TextView
+        android:id="@+id/tvPaum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/breath"
+        android:text="PAUM"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/ivPaum"
+        app:layout_constraintEnd_toEndOf="@+id/ivPaum"
+        app:layout_constraintStart_toStartOf="@+id/ivPaum"
+        app:layout_constraintTop_toTopOf="@+id/ivPaum" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
